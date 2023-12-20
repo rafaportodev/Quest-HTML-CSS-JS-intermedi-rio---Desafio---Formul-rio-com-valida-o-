@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <title>Quest HTML - CSS - JS Intermediário</title>
+</head>
+
+<body>
+    <main>
+        <div class="texto-container">
+            <h1 class="texto-titulo">
+                Ficou com dúvida?
+                <br>
+                Nos mande uma mensagem!
+            </h1>
+
+            <p class="texto">
+                caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.
+            </p>
+        </div>
+
+        <form action="" class="formulario">
+            <input type="text" name="name" id="user-name" class="input" placeholder="Nome completo*">
+
+            <p class="mensagem-campo-obrigatorio">campo obrigatório</p>
+
+            <input type="text" name="email" id="user-email" class="input" placeholder="E-mail*">
+
+            <p class="mensagem-campo-obrigatorio">campo obrigatório</p>
+
+            <input type="text" name="phone" id="user-number" class="input" placeholder="Telefone*">
+
+            <p class="mensagem-campo-obrigatorio">campo obrigatório</p>
+
+            <textarea name="message" id="user-message" class="input" cols="30" rows="10"
+                placeholder="Mensagem*"></textarea>
+
+            <p class="mensagem-campo-obrigatorio">campo obrigatório</p>
+
+            <p class="observacao">*campos obrigatórios</p>
+
+            <a id="botao-enviar">Enviar</a>
+        </form>
+    </main>
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
